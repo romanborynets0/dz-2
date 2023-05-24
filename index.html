@@ -4,61 +4,66 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <title>SIMPLY CHOCOLATE</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-    <a href="/"> 
+  <header class="header">
+    <nav class="header-navigation">
+    <a href="/" class="header-logo link"> 
       <span>
       SIMPLY</span> CHOCOLATE
       <img src="./IMG/chocolate.svg
       " alt="logo_img" width="23" height="24">
     </a>
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#made">How it’s made?</a></li>
-      <li><a href="#loved">Chocolate is loved</a></li>
+      <li class="header-menu-item"><a class="header-menu-link" href="#home">Home</a></li>
+      <li class="header-menu-item"><a class="header-menu-link" href="#made">How it’s made?</a></li>
+      <li class="header-menu-item"><a class="header-menu-link" href="#loved">Chocolate is loved</a></li>
     </ul>
     </nav>
-    <ul>
-      <li><a 
+    <ul class="header-soc">
+      <li class="header-soc-item"><a class="header-soc-link" 
         href=""
         aria-label="instagram" 
         target="_blank" 
         rel="noopener noreferrer">insta</a>
-      </li>
-      <li><a href="" aria-label="twitter" target="_blank" rel="noopener noreferrer">twit</a></li>
+      </li class="header-soc-item">
+      <li><a class="header-soc-link" href="" aria-label="twitter" target="_blank" rel="noopener noreferrer">twit</a></li>
     </ul>
   </header>
 
   <main>
-    <section id="home">
-      <h1>Treat yourself or a loved one to
+    <section id="home" class="hero">
+      <h1 class="hero-titel">Treat yourself or a loved one to
       our finest ingredients for a moment
       of pure delight!</h1>
-      <button type="button">Buy now</button>
-      <a href="#made">How it’s made</a>
-      <a href="#footer">scroll down</a>
+      <button type="button" class="hero-button">Buy now</button>
+      <a href="#made" class="hero-link">How it’s made</a>
+      <a href="#footer" class="hero-scrol-link">scroll down</a>
     </section>
-    <section>
+    <section class="benefits">
       <h2 hidden>Benefits</h2>
-      <ul>
-        <li>
-          <h3>Unsurpassed taste</h3>
-            <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
+      <ul class="benefits-list">
+        <li class="benefits-item">
+          <h3 class="benefits-subtitel">Unsurpassed taste</h3>
+            <p class="benefits-item">Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
             simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of
             chocolate bliss.</p>
-        </li>
-        <li>
-          <h3>Affordable price</h3>
-            <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
+        </li >
+        <li class="benefits-item">
+          <h3 class="benefits-subtitel">Affordable price</h3>
+            <p class="benefits-item">Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
             Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and
             indulge in affordable luxury today.</p>
         </li>
-        <li>
-          <h3>Own production</h3>
-            <p>We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
+        <li class="benefits-item">
+          <h3 class="benefits-subtitel">Own production</h3>
+            <p class="benefits-item">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
             the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
           
         </li>
